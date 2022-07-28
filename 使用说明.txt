@@ -1,0 +1,17 @@
+#使用范围
+
+安卓4.2-8 正常使用
+安卓 9：需满足手机出厂安卓版本小于 8，后经过 OTA 或第三方包升级到 9 的设备。
+安卓 10 及以上版本无法使用（机制问题）
+刷后无法开机请删除 /data/adb/modules/wpa_cli
+
+#模块介绍
+为你的设备一键添加驱动 (wpa_cli)，以及 SElinux 切换成宽容模式 (Permissive)。
+
+#适用设备 & 人群
+安卓版本处于 4.2-8 (9).x 且使用 Magisk Manager 管理 root
+使用 Magisk Root 管理且保持强制加密
+不会 / 懒 解锁 system 分区或关闭 Magisk
+
+https://blog.wittoy.com/archives/hypin-magisk
+https://github.com/Wittoy/hypin
